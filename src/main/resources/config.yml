@@ -1,0 +1,28 @@
+wheat:
+  xp: 1
+  #probability to give xp. Use 100(%) to always give xp.
+  prob: 30
+  #should the xp be counted towards mending
+  mending: false
+  #drop xp rather than giving it instantly. Note: Always counts towards mending!!
+  drop: false
+
+carrots:
+  xp: 1
+  prob: 50
+
+potatoes:
+  xp: 1
+  prob: 50
+
+nether_wart:
+  xp: 5
+  prob: 50
+
+#pumpkin:
+#  xp: 5
+#  prob: 70
+
+#melon:
+#  xp: 5
+#  prob: 70

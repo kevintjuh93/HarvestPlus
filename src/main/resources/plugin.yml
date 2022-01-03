@@ -1,0 +1,14 @@
+name: HarvestPlus
+version: '${project.version}'
+main: kalmc.harvestplus.HarvestPlus
+api-version: 1.18
+
+permissions:
+  harvestplus.reload:
+    description: Enables the HarvestPlus reload command
+    default: false
+
+commands:
+  harvestplus:
+    description: HarvestPlus command
+    usage: "\u00a7cUsage: /harvestplus <reload>"
